@@ -1,0 +1,11 @@
+{
+  "name": "cc-course-lab",
+  "version": "1.0.0",
+  "description": "Small todo CLI used for the Claude Code terminal demo",
+  "type": "module",
+  "bin": { "todo": "src/cli.js" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}
